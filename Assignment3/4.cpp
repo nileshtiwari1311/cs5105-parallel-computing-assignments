@@ -46,13 +46,7 @@ int main(int argc, char **argv)
             i++;
         }
     }
-    else
-    {
-        d=2;
-        n1=n/(d*np);
-        
-        
-    }
+    
     MPI_Barrier(MPI_COMM_WORLD);
     auto start = high_resolution_clock::now();
 
